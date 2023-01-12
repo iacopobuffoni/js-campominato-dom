@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7fffd4;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    text-align: end;
+    padding: 25px 25px 0 0;
+}
+
+main {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    padding: 25px 25px 0 25px;
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+}

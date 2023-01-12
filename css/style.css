@@ -1,0 +1,47 @@
+#container {
+
+    display: none;
+}
+
+#grid {
+
+    height: 70vh;
+    width: 70vh;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid > div.easy {
+
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid > div.medium {
+
+    height: calc(100% / 9);
+    width: calc(100% / 9);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid > div.hard {
+
+    height: calc(100% / 7);
+    width: calc(100% / 7);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clicked {
+    background-color: red;
+}
