@@ -47,21 +47,20 @@ _Play.addEventListener('click',
                 _NewCell.addEventListener('click',
     
                     function() {
-                        
-                        if (this.classList.contains('clicked')) {
-    
-    
-                        } else {
 
-                            for(i = 0; i < _Bombs.length; i++){
+                        for(i = 0; i < _Bombs.length; i++){
 
-                                if (_Bombs[i] == this.innerHTML) {
+                            if (_Bombs[i] == this.innerHTML) {
 
-                                    this.classList.add('clicked');
-                
-                                }
+                                this.classList.add('bomb');
+                                
+            
+                            } else {
+
+                                this.classList.add('safe');
+                                
+
                             }
-    
                         }
                     }
                 )
